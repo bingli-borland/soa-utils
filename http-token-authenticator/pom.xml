@@ -191,7 +191,7 @@
                 </property>
             </activation>
             <properties>
-                <mdw.home>I:\Middleware</mdw.home>
+                <mdw.home>D:/appserver/Oracle/Middleware10</mdw.home>
                 <weblogic.jar>${mdw.home}/wlserver_10.3/server/lib/weblogic.jar</weblogic.jar>
             </properties>
             <dependencies>
@@ -228,7 +228,7 @@
                     <artifactId>oracle.jps</artifactId>
                     <version>${soa-version}</version>
                     <scope>system</scope>
-                    <systemPath>${mdw.home}/oracle_common/modules/oracle.jps_11.1.1/jps-wls-idmAuthnProvider.jar</systemPath>
+                    <systemPath>D:/appserver/Oracle/Middleware12/Oracle_Home/oracle_common/modules/oracle.jps/jps-wls-idmAuthnProvider.jar</systemPath>
                 </dependency>
                 <dependency>
                     <groupId>oracle</groupId>
